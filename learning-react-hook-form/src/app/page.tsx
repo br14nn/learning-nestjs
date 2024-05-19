@@ -21,9 +21,9 @@ export default function Home() {
     register,
     handleSubmit,
     setError,
-
     formState: { errors },
   } = useForm<TFormSchema>({
+    criteriaMode: "all",
     resolver: zodResolver(FormSchema),
   });
 
@@ -62,7 +62,7 @@ export default function Home() {
         <input
           className="w-80 rounded-lg border-2 border-white bg-transparent px-3 py-1 outline-none"
           type="password"
-          placeholder="Password"
+          placeholder="Confirm Password"
           {...register("confirmPassword")}
         />
         {errors.confirmPassword && (
