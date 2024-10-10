@@ -1,0 +1,7 @@
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\bin\Debug\Giraffe.exe.config
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\bin\Debug\Giraffe.exe
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\bin\Debug\Giraffe.pdb
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\obj\Debug\Giraffe.csproj.AssemblyReference.cache
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\obj\Debug\Giraffe.csproj.CoreCompileInputs.cache
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\obj\Debug\Giraffe.exe
+E:\personal-projects\learning-repo\learning-CSharp\Giraffe\Giraffe\obj\Debug\Giraffe.pdb
