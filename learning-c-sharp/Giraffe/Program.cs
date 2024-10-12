@@ -8,19 +8,47 @@ namespace Giraffe
 {
     internal class Program
     {
+        //RETURN STATEMENTS
+        static int cube(int num) 
+        {
+            return num * num * num;
+        }
+
+        //METHODS
+        //static void SayHi(string name, int age)
+        //{
+        //    Console.WriteLine($"Hello {name}, you are {age} years old.");
+        //}
+
         static void Main(string[] args)
         {
-            //ARRAYS
-            int[] luckyNumbers = { 5, 12, 15, 27, 30, 55 };
-            string[] friends = new string[5];
+            //RETURN STATEMENTS
+            Console.WriteLine(cube(2));
+            Console.WriteLine(cube(5));
 
-            friends[0] = "Finn";
-            friends[1] = "Jake";
-
-            Console.WriteLine(luckyNumbers[2]);
-            Console.WriteLine(friends[1]);
+            int myNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"the cube of {myNum} is: {cube(myNum)}");
 
             Console.ReadLine();
+
+            //METHODS
+            //SayHi("Brian", 23);
+            //SayHi("Hina", 25);
+            //SayHi("Jeremy", 30);
+
+            //Console.ReadLine();
+
+            //ARRAYS
+            //int[] luckyNumbers = { 5, 12, 15, 27, 30, 55 };
+            //string[] friends = new string[5];
+
+            //friends[0] = "Finn";
+            //friends[1] = "Jake";
+
+            //Console.WriteLine(luckyNumbers[2]);
+            //Console.WriteLine(friends[1]);
+
+            //Console.ReadLine();
 
             //BUILDING A MAD LIB
             //string color, pluralNoun, celebrity;
@@ -113,5 +141,7 @@ namespace Giraffe
 
             //Console.ReadLine();
         }
+
+        
     }
 }
