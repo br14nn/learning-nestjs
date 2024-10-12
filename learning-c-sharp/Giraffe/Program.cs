@@ -1,35 +1,113 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Giraffe
+﻿namespace Giraffe
 {
     internal class Program
     {
-        //RETURN STATEMENTS
-        static int cube(int num) 
-        {
-            return num * num * num;
-        }
-
         //METHODS
         //static void SayHi(string name, int age)
         //{
         //    Console.WriteLine($"Hello {name}, you are {age} years old.");
         //}
 
+        //RETURN STATEMENTS
+        //static int cube(int num) 
+        //{
+        //    return num * num * num;
+        //}
+
+        //IF STATEMENTS (cont'd)
+        //static int GetMax(int num1, int num2, int num3)
+        //{
+        //    if(num1 >= num2 && num1 >= num3)
+        //    {
+        //        return num1;
+        //    }
+
+        //    if(num2 >= num1 && num2 >= num3)
+        //    {
+        //        return num2;
+        //    }
+
+        //    if(num3 >= num1 && num3 >= num2)
+        //    {
+        //        return num3;
+        //    }
+
+        //    return 0;
+        //}
+
+        //BETTER CALCULATOR
+
         static void Main(string[] args)
         {
+            //BETTER CALCULATOR
+            //Console.Write("Enter a number: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
+
+            //Console.Write("Enter operator: ");
+            //string op = Console.ReadLine();
+
+            //Console.Write("Enter another number: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
+
+            //if (op == "+")
+            //{
+            //    Console.WriteLine(num1 + num2);
+            //}
+            //else if (op == "-")
+            //{
+            //    Console.WriteLine(num1 - num2);
+            //}
+            //else if (op == "*")
+            //{
+            //    Console.WriteLine(num1 * num2);
+            //}
+            //else if (op == "/")
+            //{
+            //    Console.WriteLine(num1 / num2);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid operator");
+            //}
+
+            //Console.ReadLine();
+
+            //IF STATEMENTS (cont'd)
+            //Console.WriteLine(GetMax(55, 6, 40));
+
+            //Console.ReadLine();
+
+            //IF STATEMENTS
+            //bool isMale = false;
+            //bool isTall = false;
+
+            //if (isMale && isTall)
+            //{
+            //    Console.WriteLine("You are a tall male");
+            //}
+            //else if (isMale && !isTall)
+            //{
+            //    Console.WriteLine("You are a short male");
+            //}
+            //else if(!isMale && isTall)
+            //{
+            //    Console.WriteLine("You are not a male but you are tall");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You are not male and tall");
+            //}
+
+            //Console.ReadLine();
+
             //RETURN STATEMENTS
-            Console.WriteLine(cube(2));
-            Console.WriteLine(cube(5));
+            //Console.WriteLine(cube(2));
+            //Console.WriteLine(cube(5));
 
-            int myNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"the cube of {myNum} is: {cube(myNum)}");
+            //int myNum = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine($"the cube of {myNum} is: {cube(myNum)}");
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
             //METHODS
             //SayHi("Brian", 23);
@@ -142,6 +220,6 @@ namespace Giraffe
             //Console.ReadLine();
         }
 
-        
+
     }
 }
