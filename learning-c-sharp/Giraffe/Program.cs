@@ -1,4 +1,6 @@
-﻿namespace Giraffe
+﻿using System;
+
+namespace Giraffe
 {
     internal class Program
     {
@@ -50,6 +52,13 @@
 
         static void Main(string[] args)
         {
+            //CLASSES AND OBJECTS
+            Book book = new Book();
+
+            Console.WriteLine(book);
+
+            Console.ReadLine();
+
             //EXCEPTION HANDLING
             //try
             //{
