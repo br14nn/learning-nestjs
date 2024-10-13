@@ -35,10 +35,71 @@
         //    return 0;
         //}
 
-        //BETTER CALCULATOR
-
         static void Main(string[] args)
         {
+            //FOR LOOP
+            //int[] numbers = { 5, 4, 3, 7, 9, 7, 6, 8 };
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //Console.ReadLine();
+
+            //GUESSING GAME
+            //string secretWord = "giraffe";
+            //string guess = "";
+            //int guessCount = 0;
+            //int guessLimit = 3;
+            //bool outOfGuesses = false;
+
+            //while (guess != secretWord && !outOfGuesses)
+            //{
+            //    if (guessCount < guessLimit)
+            //    {
+            //        Console.Write("Enter guess: ");
+            //        guess = Console.ReadLine();
+            //        guessCount++;
+            //    }
+            //    else
+            //    {
+            //        outOfGuesses = true;
+            //    }
+
+            //}
+
+            //if (outOfGuesses)
+            //{
+            //    Console.WriteLine("You Lose!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You Win!");
+            //}
+
+
+            //Console.ReadLine();
+
+            //WHILE LOOPS
+            //int index = 1;
+
+            //while (index <= 5)
+            //{
+            //    if (index == 3)
+            //    {
+            //        Console.WriteLine("Hello World");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(index);
+            //    }
+
+            //    index++;
+            //}
+
+            //Console.ReadLine();
+
             //BETTER CALCULATOR
             //Console.Write("Enter a number: ");
             //double num1 = Convert.ToDouble(Console.ReadLine());
