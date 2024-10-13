@@ -35,8 +35,53 @@
         //    return 0;
         //}
 
+        //BUILDING AN EXPONENT METHOD
+        //static double GetPow(double baseNum, double exponent)
+        //{
+        //    double result = baseNum;
+
+        //    for (int i = 0; i < exponent; i++)
+        //    {
+        //        result = result * baseNum;
+        //    }
+
+        //    return result;
+        //}
+
         static void Main(string[] args)
         {
+            //EXCEPTION HANDLING
+            //try
+            //{
+            //    Console.Write("Enter a number: ");
+            //    int num1 = Convert.ToInt32(Console.ReadLine());
+
+            //    Console.Write("Enter another number: ");
+            //    int num2 = Convert.ToInt32(Console.ReadLine());
+
+            //    Console.WriteLine(num1 / num2);
+
+
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine(e);
+            //}
+
+            //Console.ReadLine();
+
+            //2D ARRAYS
+            //int[,] numberGrid = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+            //Console.WriteLine(numberGrid[0, 2]);
+
+            //Console.ReadLine();
+
+            ////BUILDING AN EXPONENT METHOD
+            //Console.WriteLine(GetPow(2, 4));
+
+            //Console.ReadLine();
+
             //FOR LOOP
             //int[] numbers = { 5, 4, 3, 7, 9, 7, 6, 8 };
 
