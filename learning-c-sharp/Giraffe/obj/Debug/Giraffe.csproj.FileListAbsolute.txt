@@ -12,3 +12,10 @@ E:\personal-projects\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.cs
 E:\personal-projects\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.csproj.CoreCompileInputs.cache
 E:\personal-projects\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.exe
 E:\personal-projects\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.pdb
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\bin\Debug\Giraffe.exe.config
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\bin\Debug\Giraffe.exe
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\bin\Debug\Giraffe.pdb
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.csproj.AssemblyReference.cache
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.csproj.CoreCompileInputs.cache
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.exe
+E:\My Projects\learn-to-code\learning-repo\learning-c-sharp\Giraffe\obj\Debug\Giraffe.pdb

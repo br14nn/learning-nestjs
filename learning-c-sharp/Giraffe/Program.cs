@@ -73,23 +73,125 @@ namespace Giraffe
         //    return dayName;
         //}
 
+        //BUILDING AN EXPONENT METHOD
+        //static double GetPow(double baseNum, double exponent)
+        //{
+        //    double result = baseNum;
+
+        //    for (int i = 0; i < exponent; i++)
+        //    {
+        //        result = result * baseNum;
+        //    }
+
+        //    return result;
+        //}
+
         static void Main(string[] args)
         {
-            //WHILE LOOP
-            int x = 0;
-            while (x < 10)
-            {
-                x++;
-                Console.WriteLine(x);
-            }
+            //CLASSES AND OBJECTS
+            Book book = new Book();
+
+            Console.WriteLine(book);
 
             Console.ReadLine();
+
+            //EXCEPTION HANDLING
+            //try
+            //{
+            //    Console.Write("Enter a number: ");
+            //    int num1 = Convert.ToInt32(Console.ReadLine());
+
+            //    Console.Write("Enter another number: ");
+            //    int num2 = Convert.ToInt32(Console.ReadLine());
+
+            //    Console.WriteLine(num1 / num2);
+
+
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine(e);
+            //}
+
+            //Console.ReadLine();
+
+            //2D ARRAYS
+            //int[,] numberGrid = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+            //Console.WriteLine(numberGrid[0, 2]);
+
+            //Console.ReadLine();
+
+            ////BUILDING AN EXPONENT METHOD
+            //Console.WriteLine(GetPow(2, 4));
+
+            //Console.ReadLine();
+
+            //FOR LOOP
+            //int[] numbers = { 5, 4, 3, 7, 9, 7, 6, 8 };
+
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //Console.ReadLine();
+
+            //GUESSING GAME
+            //string secretWord = "giraffe";
+            //string guess = "";
+            //int guessCount = 0;
+            //int guessLimit = 3;
+            //bool outOfGuesses = false;
+
+            //while (guess != secretWord && !outOfGuesses)
+            //{
+            //    if (guessCount < guessLimit)
+            //    {
+            //        Console.Write("Enter guess: ");
+            //        guess = Console.ReadLine();
+            //        guessCount++;
+            //    }
+            //    else
+            //    {
+            //        outOfGuesses = true;
+            //    }
+
+            //}
+
+            //if (outOfGuesses)
+            //{
+            //    Console.WriteLine("You Lose!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You Win!");
+            //}
+
+            //Console.ReadLine();
+
+            //WHILE LOOPS
+            //int index = 1;
+
+            //while (index <= 5)
+            //{
+            //    if (index == 3)
+            //    {
+            //        Console.WriteLine("Hello World");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(index);
+            //    }
+
+            //    index++;
+            //}
+
+            //Console.ReadLine();
 
             //SWITCH STATEMENTS
             //Console.WriteLine(GetDay(5));
             //Console.WriteLine(GetDay(3));
-
-            //Console.ReadLine();
 
             //BETTER CALCULATOR
             //Console.Write("Enter a number: ");
