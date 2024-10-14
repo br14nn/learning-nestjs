@@ -90,6 +90,9 @@ namespace Giraffe
         {
             //CLASSES AND OBJECTS
             Book book = new Book();
+            book.Title = "Henry The Goat";
+            book.Author = "Henry Cowell";
+            book.pages = 55;
 
             Console.WriteLine(book);
 
