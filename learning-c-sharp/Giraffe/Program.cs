@@ -88,13 +88,18 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //STATIC CLASS ATTRIBUTES
-            Song pleasePleasePlease = new Song("Please Please Please", "Sabrina Carpenter", 180);
-            Song holiday = new Song("Holiday", "Lil Nas X", 150);
-
-            Console.WriteLine(Song.songCount);
+            //STATIC METHODS & CLASSES
+            UsefulTools.SayHi("Brian");
 
             Console.ReadLine();
+
+            //STATIC CLASS ATTRIBUTES
+            //Song pleasePleasePlease = new Song("Please Please Please", "Sabrina Carpenter", 180);
+            //Song holiday = new Song("Holiday", "Lil Nas X", 150);
+
+            //Console.WriteLine(Song.songCount);
+
+            //Console.ReadLine();
 
             //GETTERS & SETTERS
             //Movie movie1 = new Movie("The Avengers", "Joss Wedon", "PG-13");
