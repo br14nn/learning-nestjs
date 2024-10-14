@@ -88,14 +88,26 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //OBJECT METHODS
-            Student student1 = new Student("George", "Computer Science", 3.0);
-            Student student2 = new Student("Brian", "Information Technology", 3.5);
+            //GETTERS & SETTERS
+            Movie movie1 = new Movie("The Avengers", "Joss Wedon", "PG-13");
+            Movie movie2 = new Movie("One Piece", "Oda", "PG-13");
 
-            Console.WriteLine($"Student 1 has honors: {student1.HasHonors()}");
-            Console.WriteLine($"Student 2 has honors: {student2.HasHonors()}");
+            movie1.Rating = "DOG";
+            movie2.Rating = "G";
+
+            Console.WriteLine(movie1.Rating);
+            Console.WriteLine(movie2.Rating);
 
             Console.ReadLine();
+
+            //OBJECT METHODS
+            //Student student1 = new Student("George", "Computer Science", 3.0);
+            //Student student2 = new Student("Brian", "Information Technology", 3.5);
+
+            //Console.WriteLine($"Student 1 has honors: {student1.HasHonors()}");
+            //Console.WriteLine($"Student 2 has honors: {student2.HasHonors()}");
+
+            //Console.ReadLine();
 
             //CONSTRUCTORS
             //Book book1 = new Book("Spongebob", "Jowell Garfield", 55);
