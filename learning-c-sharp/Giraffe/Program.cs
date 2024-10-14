@@ -88,15 +88,22 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //INHERITANCE
-            Chef chef = new Chef();
-            chef.MakeChicken();
+            //EXTRA: ARRAY OF OBJECTS
+            Student[] classroom = { new Student("Brian", "IT", 4.0), new Student("Delmain", "CS", 3.76) };
 
-            ItalianChef italianChef = new ItalianChef();
-            italianChef.MakeChicken();
-            italianChef.MakeSpaghetti();
+            Console.WriteLine(classroom[0].name);
 
             Console.ReadLine();
+
+            //INHERITANCE
+            //Chef chef = new Chef();
+            //chef.MakeChicken();
+
+            //ItalianChef italianChef = new ItalianChef();
+            //italianChef.MakeChicken();
+            //italianChef.MakeSpaghetti();
+
+            //Console.ReadLine();
 
             //STATIC METHODS & CLASSES
             //UsefulTools.SayHi("Brian");
