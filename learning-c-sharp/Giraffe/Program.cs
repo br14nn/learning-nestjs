@@ -88,17 +88,25 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //GETTERS & SETTERS
-            Movie movie1 = new Movie("The Avengers", "Joss Wedon", "PG-13");
-            Movie movie2 = new Movie("One Piece", "Oda", "PG-13");
+            //STATIC CLASS ATTRIBUTES
+            Song pleasePleasePlease = new Song("Please Please Please", "Sabrina Carpenter", 180);
+            Song holiday = new Song("Holiday", "Lil Nas X", 150);
 
-            movie1.Rating = "DOG";
-            movie2.Rating = "G";
-
-            Console.WriteLine(movie1.Rating);
-            Console.WriteLine(movie2.Rating);
+            Console.WriteLine(Song.songCount);
 
             Console.ReadLine();
+
+            //GETTERS & SETTERS
+            //Movie movie1 = new Movie("The Avengers", "Joss Wedon", "PG-13");
+            //Movie movie2 = new Movie("One Piece", "Oda", "PG-13");
+
+            //movie1.Rating = "DOG";
+            //movie2.Rating = "G";
+
+            //Console.WriteLine(movie1.Rating);
+            //Console.WriteLine(movie2.Rating);
+
+            //Console.ReadLine();
 
             //OBJECT METHODS
             //Student student1 = new Student("George", "Computer Science", 3.0);
