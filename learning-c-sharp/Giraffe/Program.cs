@@ -88,10 +88,20 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //STATIC METHODS & CLASSES
-            UsefulTools.SayHi("Brian");
+            //INHERITANCE
+            Chef chef = new Chef();
+            chef.MakeChicken();
+
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakeChicken();
+            italianChef.MakeSpaghetti();
 
             Console.ReadLine();
+
+            //STATIC METHODS & CLASSES
+            //UsefulTools.SayHi("Brian");
+
+            //Console.ReadLine();
 
             //STATIC CLASS ATTRIBUTES
             //Song pleasePleasePlease = new Song("Please Please Please", "Sabrina Carpenter", 180);
