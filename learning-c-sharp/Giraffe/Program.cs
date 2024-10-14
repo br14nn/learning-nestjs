@@ -1,4 +1,6 @@
-﻿namespace Giraffe
+﻿using System;
+
+namespace Giraffe
 {
     internal class Program
     {
@@ -35,10 +37,60 @@
         //    return 0;
         //}
 
-        //BETTER CALCULATOR
+        //SWITCH STATEMENTS
+        //static string GetDay(int dayNum)
+        //{
+        //    string dayName;
+
+        //    switch (dayNum)
+        //    {
+        //        case 0:
+        //            dayName = "Sunday";
+        //            break;
+        //        case 1:
+        //            dayName = "Monday";
+        //            break;
+        //        case 2:
+        //            dayName = "Tuesday";
+        //            break;
+        //        case 3:
+        //            dayName = "Wednesday";
+        //            break;
+        //        case 4:
+        //            dayName = "Thursday";
+        //            break;
+        //        case 5:
+        //            dayName = "Friday";
+        //            break;
+        //        case 6:
+        //            dayName = "Saturday";
+        //            break;
+        //        default:
+        //            dayName = "Invalid day number";
+        //            break;
+        //    }
+
+        //    return dayName;
+        //}
 
         static void Main(string[] args)
         {
+            //WHILE LOOP
+            int x = 0;
+            while (x < 10)
+            {
+                x++;
+                Console.WriteLine(x);
+            }
+
+            Console.ReadLine();
+
+            //SWITCH STATEMENTS
+            //Console.WriteLine(GetDay(5));
+            //Console.WriteLine(GetDay(3));
+
+            //Console.ReadLine();
+
             //BETTER CALCULATOR
             //Console.Write("Enter a number: ");
             //double num1 = Convert.ToDouble(Console.ReadLine());
