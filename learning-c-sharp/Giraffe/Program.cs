@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Giraffe
 {
@@ -88,12 +89,23 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //EXTRA: ARRAY OF OBJECTS
-            Student[] classroom = { new Student("Brian", "IT", 4.0), new Student("Delmain", "CS", 3.76) };
+            //EXTRA: LISTS
+            List<Student> classroom = new List<Student>();
 
-            Console.WriteLine(classroom[0].name);
+            for (int i = 0; i < 5; i++)
+            {
+                classroom.Add(new Student("Brian" + i, "IT", 3.55));
+                classroom[i].ShowStudentDetails();
+            }
 
             Console.ReadLine();
+
+            //EXTRA: ARRAY OF OBJECTS
+            //Student[] classroom = { new Student("Brian", "IT", 4.0), new Student("Delmain", "CS", 3.76) };
+
+            //Console.WriteLine(classroom[0].name);
+
+            //Console.ReadLine(); 
 
             //INHERITANCE
             //Chef chef = new Chef();

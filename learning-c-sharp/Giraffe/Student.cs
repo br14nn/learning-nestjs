@@ -1,4 +1,6 @@
-﻿namespace Giraffe
+﻿using System;
+
+namespace Giraffe
 {
     internal class Student
     {
@@ -21,6 +23,11 @@
             }
 
             return false;
+        }
+
+        public void ShowStudentDetails()
+        {
+            Console.WriteLine($"Name: {this.name}, Course: {this.course}, GPA: {this.gpa}");
         }
     }
 }
