@@ -88,14 +88,23 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //CONSTRUCTORS
-            Book book1 = new Book("Spongebob", "Jowell Garfield", 55);
+            //OBJECT METHODS
+            Student student1 = new Student("George", "Computer Science", 3.0);
+            Student student2 = new Student("Brian", "Information Technology", 3.5);
 
-            Console.WriteLine(book1.Title);
-            Console.WriteLine(book1.Author);
-            Console.WriteLine(book1.pages);
+            Console.WriteLine($"Student 1 has honors: {student1.HasHonors()}");
+            Console.WriteLine($"Student 2 has honors: {student2.HasHonors()}");
 
             Console.ReadLine();
+
+            //CONSTRUCTORS
+            //Book book1 = new Book("Spongebob", "Jowell Garfield", 55);
+
+            //Console.WriteLine(book1.Title);
+            //Console.WriteLine(book1.Author);
+            //Console.WriteLine(book1.pages);
+
+            //Console.ReadLine();
 
             //CLASSES AND OBJECTS
             //Book book = new Book();
