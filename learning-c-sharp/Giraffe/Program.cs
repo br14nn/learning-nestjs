@@ -88,15 +88,24 @@ namespace Giraffe
 
         static void Main(string[] args)
         {
-            //CLASSES AND OBJECTS
-            Book book = new Book();
-            book.Title = "Henry The Goat";
-            book.Author = "Henry Cowell";
-            book.pages = 55;
+            //CONSTRUCTORS
+            Book book1 = new Book("Spongebob", "Jowell Garfield", 55);
 
-            Console.WriteLine(book);
+            Console.WriteLine(book1.Title);
+            Console.WriteLine(book1.Author);
+            Console.WriteLine(book1.pages);
 
             Console.ReadLine();
+
+            //CLASSES AND OBJECTS
+            //Book book = new Book();
+            //book.Title = "Henry The Goat";
+            //book.Author = "Henry Cowell";
+            //book.pages = 55;
+
+            //Console.WriteLine(book);
+
+            //Console.ReadLine();
 
             //EXCEPTION HANDLING
             //try
