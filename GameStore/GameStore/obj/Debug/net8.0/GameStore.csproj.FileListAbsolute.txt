@@ -24,3 +24,29 @@ E:\personal-projects\learning-repo\GameStore\GameStore\obj\Debug\net8.0\refint\G
 E:\personal-projects\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.pdb
 E:\personal-projects\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.genruntimeconfig.cache
 E:\personal-projects\learning-repo\GameStore\GameStore\obj\Debug\net8.0\ref\GameStore.dll
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\appsettings.Development.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\appsettings.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\GameStore.exe
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\GameStore.deps.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\GameStore.runtimeconfig.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\GameStore.dll
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\bin\Debug\net8.0\GameStore.pdb
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.AssemblyInfoInputs.cache
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.AssemblyInfo.cs
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.csproj.CoreCompileInputs.cache
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.MvcApplicationPartsAssemblyInfo.cache
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.sourcelink.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets.build.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets.development.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets\msbuild.GameStore.Microsoft.AspNetCore.StaticWebAssets.props
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets\msbuild.build.GameStore.props
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GameStore.props
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GameStore.props
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\staticwebassets.pack.json
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\scopedcss\bundle\GameStore.styles.css
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.dll
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\refint\GameStore.dll
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.pdb
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\GameStore.genruntimeconfig.cache
+E:\My Projects\learn-to-code\learning-repo\GameStore\GameStore\obj\Debug\net8.0\ref\GameStore.dll
