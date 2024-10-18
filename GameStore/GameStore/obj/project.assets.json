@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\My Projects\\learn-to-code\\learning-repo\\GameStore\\GameStore\\GameStore.csproj",
+      "projectUniqueName": "e:\\personal-projects\\learning-repo\\GameStore\\GameStore\\GameStore.csproj",
       "projectName": "GameStore",
-      "projectPath": "E:\\My Projects\\learn-to-code\\learning-repo\\GameStore\\GameStore\\GameStore.csproj",
+      "projectPath": "e:\\personal-projects\\learning-repo\\GameStore\\GameStore\\GameStore.csproj",
       "packagesPath": "C:\\Users\\Brian Vitualla\\.nuget\\packages\\",
-      "outputPath": "E:\\My Projects\\learn-to-code\\learning-repo\\GameStore\\GameStore\\obj\\",
+      "outputPath": "e:\\personal-projects\\learning-repo\\GameStore\\GameStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Brian Vitualla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
